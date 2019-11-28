@@ -4,17 +4,17 @@ language: cpp
 matrix:
   include:
     - os: linux
-      dist: trusty
-      compiler: gcc-4.9
+      dist: bionic
+      compiler: gcc
       addons:
         apt:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++-4.9
+            #- g++-4.9
             - libboost-dev
             - libtiff5-dev
-      install: export CXX="g++-4.9" CC="gcc-4.9"
+      #install: export CXX="g++-4.9" CC="gcc-4.9"
 
 before_script: 
 
