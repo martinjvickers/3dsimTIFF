@@ -8,13 +8,9 @@ matrix:
       compiler: gcc
       addons:
         apt:
-          sources:
-            - ubuntu-toolchain-r-test
           packages:
-            #- g++-4.9
             - libboost-dev
             - libtiff5-dev
-      #install: export CXX="g++-4.9" CC="gcc-4.9"
 
 before_script: 
 
