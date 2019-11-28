@@ -13,7 +13,7 @@ matrix:
           packages:
             - g++-4.9
             - libboost-dev
-            - libtiff
+            - libtiff5-dev
       install: export CXX="g++-4.9" CC="gcc-4.9"
 
 before_script: 
